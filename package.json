@@ -1,0 +1,18 @@
+{
+  "name": "7god-node-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js tools for calling and deploying 7god sign service",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "demo": "node demo.js",
+    "client": "node api_client_demo.js",
+    "client:monitor": "node api_client_with_monitor.js",
+    "monitor": "node request_monitor.js",
+    "monitor:server": "node request_monitor.js server",
+    "test:sign": "node test_sign.js"
+  }
+}
